@@ -24,25 +24,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		18E8759D2E1ADADD00C1AD67 /* asyncAwaitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = asyncAwaitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E875AA2E1ADADE00C1AD67 /* asyncAwaitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asyncAwaitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		18E875B42E1ADADE00C1AD67 /* asyncAwaitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = asyncAwaitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E8759D2E1ADADD00C1AD67 /* AsyncAwaitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E875AA2E1ADADE00C1AD67 /* AsyncAwaitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18E875B42E1ADADE00C1AD67 /* AsyncAwaitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AsyncAwaitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		18BA159E2E1BDDBF005A1767 /* Exceptions for "AsyncAwaitDemoUITests" folder in "AsyncAwaitDemo" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AsyncAwaitDemoUITests.swift,
+				AsyncAwaitDemoUITestsLaunchTests.swift,
+			);
+			target = 18E8759C2E1ADADD00C1AD67 /* AsyncAwaitDemo */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		18E8759F2E1ADADD00C1AD67 /* asyncAwaitDemo */ = {
+		18E8759F2E1ADADD00C1AD67 /* AsyncAwaitDemo */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = asyncAwaitDemo;
+			path = AsyncAwaitDemo;
 			sourceTree = "<group>";
 		};
-		18E875AD2E1ADADE00C1AD67 /* asyncAwaitDemoTests */ = {
+		18E875AD2E1ADADE00C1AD67 /* AsyncAwaitDemoTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = asyncAwaitDemoTests;
+			path = AsyncAwaitDemoTests;
 			sourceTree = "<group>";
 		};
-		18E875B72E1ADADE00C1AD67 /* asyncAwaitDemoUITests */ = {
+		18E875B72E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = asyncAwaitDemoUITests;
+			exceptions = (
+				18BA159E2E1BDDBF005A1767 /* Exceptions for "AsyncAwaitDemoUITests" folder in "AsyncAwaitDemo" target */,
+			);
+			path = AsyncAwaitDemoUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +89,9 @@
 		18E875942E1ADADD00C1AD67 = {
 			isa = PBXGroup;
 			children = (
-				18E8759F2E1ADADD00C1AD67 /* asyncAwaitDemo */,
-				18E875AD2E1ADADE00C1AD67 /* asyncAwaitDemoTests */,
-				18E875B72E1ADADE00C1AD67 /* asyncAwaitDemoUITests */,
+				18E8759F2E1ADADD00C1AD67 /* AsyncAwaitDemo */,
+				18E875AD2E1ADADE00C1AD67 /* AsyncAwaitDemoTests */,
+				18E875B72E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */,
 				18E8759E2E1ADADD00C1AD67 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -85,9 +99,9 @@
 		18E8759E2E1ADADD00C1AD67 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				18E8759D2E1ADADD00C1AD67 /* asyncAwaitDemo.app */,
-				18E875AA2E1ADADE00C1AD67 /* asyncAwaitDemoTests.xctest */,
-				18E875B42E1ADADE00C1AD67 /* asyncAwaitDemoUITests.xctest */,
+				18E8759D2E1ADADD00C1AD67 /* AsyncAwaitDemo.app */,
+				18E875AA2E1ADADE00C1AD67 /* AsyncAwaitDemoTests.xctest */,
+				18E875B42E1ADADE00C1AD67 /* AsyncAwaitDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +109,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		18E8759C2E1ADADD00C1AD67 /* asyncAwaitDemo */ = {
+		18E8759C2E1ADADD00C1AD67 /* AsyncAwaitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E875BE2E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemo" */;
+			buildConfigurationList = 18E875BE2E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemo" */;
 			buildPhases = (
 				18E875992E1ADADD00C1AD67 /* Sources */,
 				18E8759A2E1ADADD00C1AD67 /* Frameworks */,
@@ -108,18 +122,19 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				18E8759F2E1ADADD00C1AD67 /* asyncAwaitDemo */,
+				18E8759F2E1ADADD00C1AD67 /* AsyncAwaitDemo */,
+				18E875B72E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */,
 			);
-			name = asyncAwaitDemo;
+			name = AsyncAwaitDemo;
 			packageProductDependencies = (
 			);
 			productName = asyncAwaitDemo;
-			productReference = 18E8759D2E1ADADD00C1AD67 /* asyncAwaitDemo.app */;
+			productReference = 18E8759D2E1ADADD00C1AD67 /* AsyncAwaitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		18E875A92E1ADADE00C1AD67 /* asyncAwaitDemoTests */ = {
+		18E875A92E1ADADE00C1AD67 /* AsyncAwaitDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E875C12E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemoTests" */;
+			buildConfigurationList = 18E875C12E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemoTests" */;
 			buildPhases = (
 				18E875A62E1ADADE00C1AD67 /* Sources */,
 				18E875A72E1ADADE00C1AD67 /* Frameworks */,
@@ -131,18 +146,18 @@
 				18E875AC2E1ADADE00C1AD67 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				18E875AD2E1ADADE00C1AD67 /* asyncAwaitDemoTests */,
+				18E875AD2E1ADADE00C1AD67 /* AsyncAwaitDemoTests */,
 			);
-			name = asyncAwaitDemoTests;
+			name = AsyncAwaitDemoTests;
 			packageProductDependencies = (
 			);
 			productName = asyncAwaitDemoTests;
-			productReference = 18E875AA2E1ADADE00C1AD67 /* asyncAwaitDemoTests.xctest */;
+			productReference = 18E875AA2E1ADADE00C1AD67 /* AsyncAwaitDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		18E875B32E1ADADE00C1AD67 /* asyncAwaitDemoUITests */ = {
+		18E875B32E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 18E875C42E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemoUITests" */;
+			buildConfigurationList = 18E875C42E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemoUITests" */;
 			buildPhases = (
 				18E875B02E1ADADE00C1AD67 /* Sources */,
 				18E875B12E1ADADE00C1AD67 /* Frameworks */,
@@ -154,13 +169,13 @@
 				18E875B62E1ADADE00C1AD67 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				18E875B72E1ADADE00C1AD67 /* asyncAwaitDemoUITests */,
+				18E875B72E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */,
 			);
-			name = asyncAwaitDemoUITests;
+			name = AsyncAwaitDemoUITests;
 			packageProductDependencies = (
 			);
 			productName = asyncAwaitDemoUITests;
-			productReference = 18E875B42E1ADADE00C1AD67 /* asyncAwaitDemoUITests.xctest */;
+			productReference = 18E875B42E1ADADE00C1AD67 /* AsyncAwaitDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 18E875982E1ADADD00C1AD67 /* Build configuration list for PBXProject "asyncAwaitDemo" */;
+			buildConfigurationList = 18E875982E1ADADD00C1AD67 /* Build configuration list for PBXProject "AsyncAwaitDemo" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -195,14 +210,16 @@
 			);
 			mainGroup = 18E875942E1ADADD00C1AD67;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 18E8759E2E1ADADD00C1AD67 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				18E8759C2E1ADADD00C1AD67 /* asyncAwaitDemo */,
-				18E875A92E1ADADE00C1AD67 /* asyncAwaitDemoTests */,
-				18E875B32E1ADADE00C1AD67 /* asyncAwaitDemoUITests */,
+				18E8759C2E1ADADD00C1AD67 /* AsyncAwaitDemo */,
+				18E875A92E1ADADE00C1AD67 /* AsyncAwaitDemoTests */,
+				18E875B32E1ADADE00C1AD67 /* AsyncAwaitDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +275,12 @@
 /* Begin PBXTargetDependency section */
 		18E875AC2E1ADADE00C1AD67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18E8759C2E1ADADD00C1AD67 /* asyncAwaitDemo */;
+			target = 18E8759C2E1ADADD00C1AD67 /* AsyncAwaitDemo */;
 			targetProxy = 18E875AB2E1ADADE00C1AD67 /* PBXContainerItemProxy */;
 		};
 		18E875B62E1ADADE00C1AD67 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 18E8759C2E1ADADD00C1AD67 /* asyncAwaitDemo */;
+			target = 18E8759C2E1ADADD00C1AD67 /* AsyncAwaitDemo */;
 			targetProxy = 18E875B52E1ADADE00C1AD67 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -397,6 +414,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MoviesApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -424,6 +442,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = MoviesApp;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -456,7 +475,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asyncAwaitDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/asyncAwaitDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAwaitDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncAwaitDemo";
 			};
 			name = Debug;
 		};
@@ -474,7 +493,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/asyncAwaitDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/asyncAwaitDemo";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AsyncAwaitDemo.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/AsyncAwaitDemo";
 			};
 			name = Release;
 		};
@@ -513,7 +532,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		18E875982E1ADADD00C1AD67 /* Build configuration list for PBXProject "asyncAwaitDemo" */ = {
+		18E875982E1ADADD00C1AD67 /* Build configuration list for PBXProject "AsyncAwaitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E875BC2E1ADADE00C1AD67 /* Debug */,
@@ -522,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E875BE2E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemo" */ = {
+		18E875BE2E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E875BF2E1ADADE00C1AD67 /* Debug */,
@@ -531,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E875C12E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemoTests" */ = {
+		18E875C12E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E875C22E1ADADE00C1AD67 /* Debug */,
@@ -540,7 +559,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		18E875C42E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "asyncAwaitDemoUITests" */ = {
+		18E875C42E1ADADE00C1AD67 /* Build configuration list for PBXNativeTarget "AsyncAwaitDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				18E875C52E1ADADE00C1AD67 /* Debug */,

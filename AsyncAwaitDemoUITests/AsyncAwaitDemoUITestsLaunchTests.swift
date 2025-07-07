@@ -1,13 +1,13 @@
 //
-//  asyncAwaitDemoUITestsLaunchTests.swift
-//  asyncAwaitDemoUITests
+//  AsyncAwaitDemoUITestsLaunchTests.swift
+//  AsyncAwaitDemoUITests
 //
 //  Created by Komal's MAC on 06/07/25.
 //
 
 import XCTest
 
-final class asyncAwaitDemoUITestsLaunchTests: XCTestCase {
+final class AsyncAwaitDemoUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
