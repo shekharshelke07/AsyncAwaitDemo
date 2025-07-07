@@ -4,5 +4,6 @@ includes:
 - Use of async-await
 - MainActor.run
 - Generic func to fetch API data
-- Test case
+- Test case using Mock
 - Use of AyncImage
+- Use of DIP(Dependency Inversion Principle)
